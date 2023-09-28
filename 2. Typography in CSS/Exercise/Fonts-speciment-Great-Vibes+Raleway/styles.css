@@ -1,0 +1,28 @@
+html{
+    margin: 50px 50px;
+    padding: 40px;
+    border: 5em;
+    border: 4px solid rgb(0, 0, 0);
+    
+}
+
+body{
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    
+}
+
+h1{
+    font-family: "Great Vibes", cursive;
+    line-height: 1.2;
+    font-weight: bold;
+    margin-top: 1.7em;
+    margin-bottom: 0.5em;
+    
+}
+
+article{
+    opacity: .6;
+
+}
