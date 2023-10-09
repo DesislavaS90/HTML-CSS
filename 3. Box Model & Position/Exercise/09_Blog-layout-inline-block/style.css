@@ -1,0 +1,45 @@
+body{
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+    border: 2px solid black;
+}
+
+h1, aside, aside a, aside article {
+    display: inline-block;
+}
+
+a{
+    width: 60%;
+    
+}
+
+section, footer, header p, h1{
+    width: 60%;
+    margin: 30px;
+}
+
+aside{
+    float: right;
+}
+
+header p{
+    margin-top: -14px;
+   
+}
+
+section h2{
+    margin-top: 50px;
+
+}
+
+h1, h2{
+    font-family: serif;
+    
+}
+
+img{
+    max-width: 60%;  
+    height: auto;  
+}
+

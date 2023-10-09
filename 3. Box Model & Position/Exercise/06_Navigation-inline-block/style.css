@@ -1,0 +1,39 @@
+body{
+    font-family: Helvetica, sans-serif;
+    margin: 4em;
+}
+
+header{   
+    border-bottom: 2px solid black;
+}
+
+a{
+    text-decoration: none;
+    color: green;
+    margin: 10px;
+    font-size: small;
+}
+
+h1, nav, nav ul, li{
+    display: inline-block;
+}
+
+nav{
+    margin-left: 30px;
+}
+
+article h2{
+    font-family: serif;
+    font-weight: lighter;
+}
+
+article{
+    margin-top: 2em;
+}
+
+
+
+
+
+
+
