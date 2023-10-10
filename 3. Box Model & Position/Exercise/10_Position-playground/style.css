@@ -1,0 +1,33 @@
+img {
+    width: 50%;
+    height: auto;
+    
+}
+
+.viewport {
+    display: block;
+    position: relative; 
+    height: 400px; 
+    
+}
+
+.card {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-30%, -50%);
+}
+
+.viewport:nth-child(1) {
+    background: linear-gradient(to right, rgb(10, 114, 204), rgb(150, 226, 150));
+}
+
+.viewport:nth-child(2) {
+    background: linear-gradient(to right, #c32888, orange);
+}
+
+
+
+
+
+
