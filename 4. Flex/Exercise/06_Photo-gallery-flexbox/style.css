@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    background-color: #DDD;
+    padding: 2em;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    gap: 2em
+}
+
+li{
+    flex: 1 1 200px;
+    display: flex;
+    border: 6px solid black;
+    align-items: center;
+    background-color: azure;
+    padding: 2em 1em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 1.2);
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+

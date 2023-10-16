@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(238, 238, 238);
+}
+
+h1, h2, h3, h4{
+    font-family: Georgia, serif;
+    padding-bottom: 0.5em;
+}
+
+h2, h3, h4{
+    font-weight: normal;
+}
+
+blockquote{
+    font-family: Georgia, serif;
+    color: gray;
+    float: right;
+    margin: 0 0 1em 1em;
+    width: calc(50% - 1em); 
+    border-left: 2px solid gray;
+    padding-left: 3em;
+    
+    
+}
+
+blockquote p:nth-child(2){
+    float: right;
+    margin-top: 1em;
+}
+
+aside a{
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+    font-size: 12px;
+
+}
+
+header{
+    flex: 1 1 100%;
+    border-bottom: 2px solid black;
+}
+
+p{
+    padding-bottom: 1.5em;
+}
+
+.page{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 60em;
+    margin: 3em auto;
+    gap: 2em;
+}
+
+
+.page img{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    padding: 0.3em;
+    border: 5px solid black;
+}
+
+
+main{
+    flex: 1 0 70%;
+}
+
+aside ul {
+    margin-left: 60px;
+}
+
+aside h4{
+    margin-left: 30px;
+}
+
+
+aside{
+    flex: 1 0 25%;
+}
+
+.right{
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+.left{
+    float: left;
+    margin: 0 1em 1.5em 0;
+}
+
+
+
+
+
+
+

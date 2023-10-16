@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font: 16px/1.5 Verdana, sans-serif;
+}
+
+body{
+    padding: 4em;
+}
+
+p{
+    padding-bottom: 1.5em;
+}
+
+header{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    display: flex;
+    padding-bottom: 1.5em;
+    margin-bottom: 1.5em;
+    justify-content: space-between;
+    
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 0.5em;    
+}
+
+nav a{
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+
+h2{
+    padding-bottom: 0.5em;
+    font-family: Georgia, serif;
+    font-weight: normal;
+    
+}
