@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body > *{
+    background-color: lightblue;
+    border-radius: 5px;
+    
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    gap: 1em;
+    
+}
+
+header, footer{
+    padding: 1em;
+    flex: 1 1 100%
+}
+
+aside ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: purple;
+    padding-right: 2em;
+}
+
+main ul{
+    padding-left: 2em;
+    padding-top: 1em;
+}
+
+aside, main{
+    padding: 1em;
+}
+
+
+main{
+    flex: 1 1 70%;
+    padding-bottom: 3em;
+}
+
+aside{
+    flex: 1 1 25%;
+}
+
+@media (max-width: 500px){
+    
+    body{
+        flex-direction: column;
+    }
+}
