@@ -1,7 +1,12 @@
-img {
-    width: 50%;
-    height: auto;
-    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1800px;
+    margin: 0 auto;
 }
 
 .viewport {
@@ -10,6 +15,13 @@ img {
     height: 400px; 
     
 }
+
+img {
+    width: 50%;
+    height: auto;
+    
+}
+
 
 .card {
     position: absolute;
