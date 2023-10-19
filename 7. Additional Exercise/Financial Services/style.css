@@ -1,0 +1,77 @@
+@import url("https://fonts.google.com/specimen/Poppins");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font: 12px/1.5 "Poppins", sans-serif;
+}
+
+body{
+    padding: 2em;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+span{
+    color: rgb(33, 147, 217) ;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+}
+
+article{
+    flex: 1 1 30%;
+    border-radius: 1.2em;
+    background-color: #819DAF;
+    margin-top: 1em;
+}
+
+.article-content{
+    padding: 1.5em;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+.article-content p{
+    margin: 1em 0 1em 0;
+}
+
+h2{
+    font-weight: normal;
+}
+
+.article-content a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border-radius: 4em;
+    background-color: #327DC4;
+    padding: 0.3em 1.3em;
+    border: 0.5px solid #323CC4;
+    outline: 1px solid #fff;
+    
+}
+
