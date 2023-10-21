@@ -1,1 +1,157 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font: 14px/1.5 "PT Sans", sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.top-nav{
+    background-color: #D01919;
+}
+
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 2em;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 0.5em
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5em 2em;
+}
+
+.navbar ul{
+    gap: 5em;
+}
+
+header{
+    background-color: black;
+    background-image: url("image/fitness-main.jpg");
+    height: 610px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 10em; 
+    gap: 1.5em;   
+}
+
+
+.banner-content h1{
+    font-size: 3.7em;
+    letter-spacing: 0.2em;
+}
+
+.banner-content p{
+    max-width: 52ch;
+    text-align: center;
+    
+}
+
+.banner-content a{
+    background-color: #D01919;
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+}
+
+
+.welcome article img{
+    width: 20%;
+    margin: 0 auto;
+
+} 
+
+.welcome, .coaches{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3em;   
+}
+
+.article-content{
+    display: flex;
+    flex: 1 1 30%;
+    gap: 2em;
+    margin-top: 0.5em;
+}
+
+article{
+    text-align: center;
+    padding: 1.5em;
+}
+
+ h2{
+    flex-basis: 100%;
+    text-align: center;
+    margin: 1.5em 0 1.5em 0;
+    font-size: 2em;
+}
+
+.welcome h4, p{
+    margin-top: 1em;
+}
+
+
+.welcome h4, .coaches h5{
+    color: #D01919;
+}
+
+.coaches img{
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+
+.coaches{
+    background-color: lightgray;
+    margin: 0;
+    padding-bottom: 3em;
+    
+}
+
+footer p{
+    text-align: center;
+    padding: 0.5em;
+    margin-top: 0;  
+}
+
+footer{
+    background-color: #D01919;
+}
+
+
+
